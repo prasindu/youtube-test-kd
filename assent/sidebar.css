@@ -1,0 +1,34 @@
+.sidebar{
+    position: fixed;
+    left: 0px;
+    top: 55px;
+    bottom: 0px;
+    width: 72px;
+  
+
+}
+.home{
+    height: 72px;
+    border-style:none ;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: backgroud-color 0.01s;
+    cursor: pointer;
+}
+.home-ic,.explore-ic,.sub-ic,.originals-ic,.you-mu,.library-ic{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    
+}
+.home div{
+    font-family: arial;
+    font-size: 10px;
+    margin-top: 8px;
+}
+.home:hover{
+    background-color: rgb(189, 182, 182);
+}
